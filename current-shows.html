@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Fantastical Art Gallery: Home</title>
+    <title>Fantastical Art Gallery: Current Show</title>
     <script src="https://kit.fontawesome.com/4742892d43.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
@@ -12,24 +12,24 @@
 	
  <!-- Nav -->
 	
-	<nav class="navbar navbar-expand-lg navbar-light bg-light container">
+<nav class="navbar navbar-expand-lg navbar-light bg-light container">
   <a class="navbar-brand" href="index.html">Fantastical Art Gallery</a>
   <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
 
  <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto">
-                <li class="active nav-item mr-2">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="about.html">About</a>
       </li>
-      <li class="nav-item dropdown">
+      <li class="nav-item dropdown ">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shows</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                         <a class="dropdown-item" href="previous-shows.html">Previous</a>
-                        <a class="dropdown-item" href="current-shows.html">Current</a>
+                        <a class="dropdown-item" href="previous-shows.html">Previous <span class="sr-only">(current)</span></a>
+                        <a class="dropdown-item active mr-2" href="current-shows.html">Current</a>
                         <a class="dropdown-item" href="future-shows.html">Future</a>
                     </div>
                 </li>
@@ -42,21 +42,13 @@
   </div>
 </nav>
 		
-<!-- Hero Image -->
-		
-<section id="hero-1" class="container">
-      <div class="row"><img src="assets/images/In_A_World_Of_Her_Own_by_Michael_Whelan_Block.jpg" class="img-fluid" style="animation-name: hero-zoom; animation-duration: 5s; animation-fill-mode: forwards;"></div>
-    </section>
-
-    <!-- Section -->
+<!-- Section -->
 
 	<div id="section-middle" class="container">
-		<div class="row" class="middle-section">
-			<p class="artist-credit">Artwork 'In A World Of Her Own' by Michael Whelan</p>
-		</div>
-		<div class="row" class="middle-section">
-			<h3>Welcome to the Fantastical Art Gallery</h3>
-			<p align="justify">Our focus is on exhibiting emotionally, intellectually and imaginatively driven, representational artwork that connects the audience and artist with universal axioms and passions. We work with both emerging and established artists who transcend their medium and subjects by exploring the world around them as well as the one within themselves.</p>
+		<div id="flyer" class="row middle-section">
+			<h3>Current show:</br>March 2020</h3>
+				<img src="assets/images/Flyer_Elements.jpg" align="center" class="img-fluid img-thumbnail" alt="Responsive image">
+			</div>
 </div>	
 	</div>
 	

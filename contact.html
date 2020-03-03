@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Fantastical Art Gallery: Home</title>
+    <title>Fantastical Art Gallery: Contact</title>
     <script src="https://kit.fontawesome.com/4742892d43.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
@@ -19,8 +19,8 @@
 
  <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto">
-                <li class="active nav-item mr-2">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="about.html">About</a>
@@ -28,7 +28,7 @@
       <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shows</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                         <a class="dropdown-item" href="previous-shows.html">Previous</a>
+                       <a class="dropdown-item" href="previous-shows.html">Previous</a>
                         <a class="dropdown-item" href="current-shows.html">Current</a>
                         <a class="dropdown-item" href="future-shows.html">Future</a>
                     </div>
@@ -36,8 +36,8 @@
 		<li class="nav-item">
         <a class="nav-link" href="https://geekynerfherder.blogspot.com/" target="_blank">Blog</a>
       </li>
-		<li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
+		<li class="active nav-item mr-2">
+        <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
       </li>
   </div>
 </nav>
@@ -45,19 +45,35 @@
 <!-- Hero Image -->
 		
 <section id="hero-1" class="container">
-      <div class="row"><img src="assets/images/In_A_World_Of_Her_Own_by_Michael_Whelan_Block.jpg" class="img-fluid" style="animation-name: hero-zoom; animation-duration: 5s; animation-fill-mode: forwards;"></div>
+      <div class="row"><img src="assets/images/Yours_Truly_by_Michael_Whelan_Block.jpg" class="img-fluid" style="animation-name: hero-zoom; animation-duration: 5s; animation-fill-mode: forwards;"></div>
     </section>
 
     <!-- Section -->
 
 	<div id="section-middle" class="container">
 		<div class="row" class="middle-section">
-			<p class="artist-credit">Artwork 'In A World Of Her Own' by Michael Whelan</p>
+			<p class="artist-credit">Artwork 'Yours Truly' by Michael Whelan</p>
 		</div>
 		<div class="row" class="middle-section">
-			<h3>Welcome to the Fantastical Art Gallery</h3>
-			<p align="justify">Our focus is on exhibiting emotionally, intellectually and imaginatively driven, representational artwork that connects the audience and artist with universal axioms and passions. We work with both emerging and established artists who transcend their medium and subjects by exploring the world around them as well as the one within themselves.</p>
-</div>	
+        <div class="row bg-color-info middle-section container">
+            <div class="col">
+            <h3 class="contact-heading uppercase text-center">Get in touch!</h3>
+            <div class="center-form">
+                <form>
+                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
+                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required>
+                    <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Comments" required></textarea>
+                    <div class="form-row text-center">
+                        <div class="col">
+                            <button type="submit" class="btn-sm btn-info">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            </div>
+        </div>
+
+    </section>	
 	</div>
 	
 	
