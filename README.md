@@ -34,7 +34,9 @@ Includes an email form with name, email and comment fields. Also included on the
 
 ## Tests
 
-Tested the appearance of the website in Chrome and Firefox browsers using the Dev Tools to make sure it was responsive for mobile and tablet, and making sure all the images appeared correctly and the links worked.
+* Tested the appearance of the website in Chrome and Firefox browsers using the Dev Tools to make sure it was responsive for mobile and tablet, and making sure all the images appeared correctly and the links worked.
+
+* Ran HTML and CSS through https://validator.w3.org and https://jigsaw.w3.org/css-validator to check coding
 
 ## Technologies Used
 
