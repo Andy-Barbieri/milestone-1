@@ -1,5 +1,7 @@
 # Milestone Project 1
 
+![Apple Devices picture](assets/images/AppleDevicesView.png)
+
 My first Milestone Project using what I've learnt from the HTML and CSS modules along with additional CSS from Bootstrap 4
 
 ## Fantastical Art Gallery
@@ -56,7 +58,7 @@ Includes an email form with name, email and comment fields. Also included on the
 
 ## Author
 
-* **Andy Barbieri** - (https://github.com/Andy-Barbieri/milestone-1)
+**Andy Barbieri** - (https://github.com/Andy-Barbieri/milestone-1)
 
 ## Acknowledgments
-* Took inspiration from real gallery websites including: Haven Gallery (http://www.havenartgallery.com) and IX Gallery (http://www.ixgallery.com/)
+Took inspiration from real gallery websites including: Haven Gallery (http://www.havenartgallery.com) and IX Gallery (http://www.ixgallery.com/)
